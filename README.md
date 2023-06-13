@@ -1,9 +1,10 @@
 ## 10x Genomics IT Automation Technical Coding Interview
 
-Create a service that converts a CSV file into JSON API.
+Create a web service that converts a CSV file into an API that exposes JSON.
 
-We've provided a CSV file of Seattle weather `seattle-weather.csv`. It contains
-the following labels in the header, with the following format:
+We've provided a CSV file of Seattle weather in
+[`seattle-weather.csv`](./seattle-weather.csv). It contains the following
+labels in the header, with the following format:
 
 ```
 date,precipitation,temp_max,temp_min,wind,weather
@@ -13,7 +14,7 @@ date,precipitation,temp_max,temp_min,wind,weather
 ...
 ```
 
-## Your tasks:
+## Your tasks (in no specific order):
 
 1. Read in CSV file, output JSON
 2. Create a server that responds to a `GET` request with the output in JSON
